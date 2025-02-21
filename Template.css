@@ -1,0 +1,819 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+.header-panel{
+    height: 76px;
+    color: white;
+    /* background-color:#140C64; */
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    
+}
+.logoname{
+    font-size: 24px;
+    font-weight: 600;
+    width: 60%;
+    padding-left: 25px;
+
+}
+
+.headings{
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 3px;
+    justify-content: space-evenly;
+    
+}
+.headings a{
+    text-decoration:none ;
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    justify-content: space-evenly;
+
+}
+.slidercontainer{
+ position: relative;  
+}
+
+.slidercontainer header{
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+    width: 100%;
+}
+
+.slider{
+   background-image: url("/assets/hero-bg.png");
+   height: 950px;
+   width: 100%;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+  
+}
+/* .slidercon{
+    padding: 10px 10px;
+    display: inline;
+} */
+
+/* slider container */
+
+.slider{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.slidercontent{
+    color: white;
+    width: 50%;
+    padding-bottom:30px ;
+    padding-left: 35px;
+
+}
+.slideranimation{
+    width: 50%;
+    padding-left: 25px;
+    padding-bottom: 30px;
+}
+
+.slidercontent h1{
+    /* width: 450px;
+    height: 115px; */
+    font-size: 48px;
+    margin: 0px 0px 15px;
+}
+
+.slidercontent p{
+    /* width: 555px; */
+    /* height: 63px; */
+    font-size: 14px;
+    margin: 0px 0px 16px;
+    line-height: 1.5;
+}
+
+.sliderbutton{
+    width: 165px;
+    height: 44px;
+    background-color: #00bbf0;
+    color: white;
+    font-size: 16px;
+    padding: 10px 15px;
+    border: none;
+    margin: 25px 5px 0px;
+
+}
+
+.sliderbutton:hover{
+    background-color: #0056b3;
+}
+
+.animation{
+    display: block;
+    /* width: 450px ;
+    height: 385px;  */
+    width: 80%;
+    position: relative;
+    animation: slideranime 5s ease infinite alternate-reverse;
+}
+@-webkit-keyframes slideranime {
+    0% {
+        -webkit-transform: translateY(-45px);
+        transform: translateY(-45px)
+    }
+
+    50% {
+        -webkit-transform: translateY(45px);
+        transform: translateY(45px)
+    }
+
+    100% {
+        -webkit-transform: translateY(-45px);
+        transform: translateY(-45px)
+    }
+}
+
+@keyframes slideranime {
+    0% {
+        -webkit-transform: translateY(-45px);
+        transform: translateY(-45px)
+    }
+
+    50% {
+        -webkit-transform: translateY(45px);
+        transform: translateY(45px)
+    }
+
+    100% {
+        -webkit-transform: translateY(-45px);
+        transform: translateY(-45px)
+    }
+}
+
+
+/* service section */
+
+.servicesection{
+    padding-top: 90px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 90px;
+  
+}
+
+.serviceheader{
+    height: 72.4px;
+    align-items: center;
+    text-align: center;
+}
+
+.serviceheader h2{
+    font-size: 32px;
+    color: #0c0c0c;
+}
+
+.serviceheader span{
+    color: #00bbf0;
+    height: 42px;
+}
+
+.serviceheader p{
+    margin: 10px 0px 0px;
+    font-size: 16px;
+    color: #0c0c0c;
+}
+
+
+/* box section */
+
+.box{
+    background-color: #f8f8f9;
+    text-align: center;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.colbox{
+    width: 31%;
+
+} 
+
+.image{
+    height: 75px;
+    width: 75px;
+    margin: 0px 0px 15px;
+}
+
+.heading{
+    font-size: 20px;
+    margin: 0px 0px 8px;
+    color: #0c0c0c;
+}
+
+.para{
+    font-size: 16px;
+    color: #0c0c0c;
+    margin: 0px 0px 16px;
+    width: 100%;
+    padding: 10px;
+}
+
+.readmore{
+    font-size: 16px;
+    color: #00204a;
+}
+
+.bigboxe{
+    display: flex;
+    justify-content: center;
+    gap: 23px;
+    padding-top: 20px;
+    margin: 45px 0px 0px;
+    flex-wrap: wrap;
+   
+}
+
+.viewbutton{
+    padding: 10px 45px;
+    width: 147px;
+    height: 44px;
+    margin: 45px 0px 0px;
+}
+
+.wbutton{
+    display: flex;
+    justify-content: center;
+}
+
+/* about section */
+
+.about{
+    background-color: #00204a;
+    color: #ffffff;
+    padding: 90px 0px;
+}
+.heading{
+    margin: 0px 0px 45px;
+}
+.heading h2{
+    color: #ffffff;
+    font-size: 32px;
+    text-align: center;
+
+}
+.heading span{
+    color: #00bbf0;
+}
+
+.heading p{
+    color: #ffffff;
+    font-size: 16px;
+    margin: 10px 0px 0px;
+    text-align: center;
+}
+
+.imageandcontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0px 150px;
+    margin-top: 45px;
+}
+
+.imgarea{
+    width: 50%;
+}
+.infoarea{
+    width: 50%;
+}
+.aboutimage img{
+    width: 80%;
+    
+}
+.aboutinfo{
+    width: 100%;
+}
+
+.aboutinfo h3{
+    font-size: 28px;
+    margin: 0px 0px 8px;
+} 
+
+.aboutinfo p{
+    font-size: 16px;
+    margin: 15px 0px 16px;
+    line-height: 1.5;
+
+}
+
+/* why us section */
+
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 90px;
+}
+
+.con{
+    padding: 0px 15px;
+    margin: 0px 97px;
+}
+
+.whyus h2{
+    font-size: 32px;
+    text-align: center;
+}
+
+.whyus span{
+    color: #00bbf0;
+}
+
+.detailbox{
+    margin: 45px 0px 0px;
+}
+
+.detailimage{
+    display: flex;
+    justify-content: center;
+}
+
+.detailing{
+    border: 5px solid black;
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    margin: 0px 0px 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.detailing img{
+    margin-top: 26px;
+    width: 55px;
+    height: 55px;
+    text-align: center;
+}
+
+.details h5{
+    font-size: 20px;
+    margin:0px 0px 10px;
+    text-align: center;
+}
+
+.details p{
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.usbutton button{
+    margin: 45px 0px 0px;
+    align-items: center;
+}
+
+.but{
+    margin: 45px 0px 0px;
+    text-align: center;
+    
+
+}
+
+
+/* for team */
+
+.teamarea{
+    padding: 90px 0px;
+    background-color: #00204a;
+} 
+
+.insidediv{
+   width: 100%;
+   padding-left: 15px;
+   padding-right: 15px;
+   margin-right: auto;
+   margin-left: auto;
+
+}
+
+.teamheading h2{
+    font-size: 32px;
+    color: #ffffff;
+    height: 38.4px;
+    text-align: center;
+}
+
+.teamheading span{
+    color: #00bbf0;
+}
+
+.teamrow{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.boxx{
+    padding: 24px 0px 0px;
+    margin: 35px 0px 0px;
+    background-color: #002759;
+}
+
+.imgboxx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.imgboxx img{
+    height: 120px;
+    border-radius: 50%;
+    border: 5px solid white;
+   
+}
+
+.teamdetails{
+    margin: 25px 0px;
+    text-align: center;
+}
+
+.teamdetails h5{
+    font-size: 20px;
+    height: 24px;
+    margin: 0px 0px 8px;
+    color: #00bbf0;
+}
+
+.teamdetails p{
+    height: 24px;
+    margin: 0px 0px 16px;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.socialbox{
+    color: #ffffff;
+    padding: 10px 45px 20px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 22px;
+    gap: 22px;
+}
+
+
+/* feedback area */
+
+.feedbackarea{
+    padding: 90px 0px;
+}
+
+.containerfeed{
+    margin: 0px 98px;
+    padding: 0px 15px;
+}
+
+.feedbacktitle{
+    padding: 0px 0px 30px;
+    text-align: center;
+}
+
+.feedbacktitle h2{
+    font-size: 32px;
+    color: black;
+}
+
+.feedbacktitle span{
+    color: #00bbf0;
+}
+
+
+
+/* upper footer */
+
+.upperfooter{
+    padding: 45px 0px 15px;
+    background-color: #00204a;
+}
+
+.footercontainer{
+    margin: 0px 98px;
+}
+
+.footerrow{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 0px 30px;
+}
+
+.footercol{
+    width: 25%;
+    color: #ffffff;
+}
+
+
+
+.address h4{
+    font-size: 24px;
+    padding-bottom: 5px;
+    margin: 0px 0px 20px;
+}
+
+.contactlink a{
+    font-size: 16px;
+    margin: 5px 0px;
+    display: block;
+    padding-bottom: 5px;
+}
+
+.emoji{
+    margin: 20px 0px 10px;
+
+}
+
+.emoji a{
+    padding-right: 10px;
+    font-size: 22px;
+}
+
+.contactlink p{
+ margin: 0px 0px 16px;
+
+}
+
+.links a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #ffffff;
+    margin: 0px 0px 15px;
+}
+.links{
+    padding: 0px 15px;
+    margin: 0px 49px 30px;
+}
+
+.contactlink input{
+    padding: 1px 2px;
+    color: #ffffff !important;
+    width: 100%;
+    background-color:transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    font-size: 16px;
+   
+    outline: 0;
+    
+}
+
+#head{
+    padding-bottom: 35px;
+}
+
+.contactlink input::placeholder{
+    color: white;
+}
+
+.contactlink button{
+    width: 100%;
+    margin-left: 0px;
+}
+
+.footer{
+    color: #ffffff;
+    padding-top: 55px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.copyright{
+    text-align: center;
+}
+
+.withoutslider{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.slide{
+    padding: 15px 10px;
+    position: relative;
+}
+
+.slidebox{
+    color: #ffffff;
+    padding: 0px 10px;
+    margin-top: 70px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.sliderboxx{
+    padding: 0px 20px;
+    color: #0c0c0c;
+}
+
+.boximg img{
+    position: relative;
+    top: -50px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.zen{
+    padding-left: 14px;
+    padding-bottom: 30px;
+
+}
+
+.zen h6{
+    padding-bottom: 8px;
+    font-size: 16px;
+    color: #0c0c0c;
+}
+
+.paraone{
+    font-size: 14px;
+    padding-bottom: 14px;
+}
+
+.zen p{
+    color: #0c0c0c;
+}
+
+.hoverr:hover{
+    color: #00bbf0;
+}
+
+/* media query */
+
+
+@media screen and (max-width: 991px)
+{
+    .headings{
+        display: block;
+        line-height: -5px;
+    
+    }
+    .headings a{
+        display: none;
+    }
+    .heading p{
+        padding: 0px 10px;
+    }
+    .imageandcontent{
+        padding: 10px 10px;
+    }
+    .container{
+        padding: 90px 40px;
+    }
+    .footercol{
+        width: 50%;
+
+    }
+    .links{
+        padding: 0px;
+        margin: 0px;
+        margin-top: 30px;
+    }
+    #head{
+        margin-top: 30px;
+    }
+
+}
+@media screen and (max-width: 768px){
+
+    /* .slider{
+        display: block;
+
+    } */
+     .bigboxe{
+        display: block;
+        
+     }
+     .colbox{
+        width: 100%;
+        margin-bottom: 15px;
+     }
+     .imageandcontent{
+        display: block;
+     }
+     .imgarea{
+        width: 100%;
+        text-align: center;
+        padding-left: 20px;
+     }
+     .infoarea{
+        width: 100%;
+        margin-top: 20px;
+     }
+     .aboutinfo{
+        text-align: center;
+     }
+     .butt{
+        text-align: center;
+     }
+     .con{
+        margin: 0%;
+     }
+     .containerfeed{
+        margin: 0%;
+     }
+     .footercontainer{
+        margin: 0%;
+        padding: 0px 15px;
+     }
+     .slider{
+        display: block;
+     }
+     .slidercontent{
+        width: 100%;
+        padding-top: 125px;
+        padding-left: 15px;
+        padding-right: 15px;
+     }
+     .slideranimation{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        padding-top: 10px;
+     }
+
+     .slideranimation img{
+        margin: auto;
+     }
+     .animationcenter{
+        text-align: center;
+     }
+
+}
+  
+@media screen and (max-width: 480px){
+    .withoutslider{
+        display: block;
+    }
+    .footerrow{
+        display: block;
+    }
+    .contactbox{
+        padding-bottom: 10px;
+    }
+
+    .emoji{
+        margin: 0%;
+        margin-bottom: 26px;
+    }
+    .links{
+        margin: 0%;
+    }
+    #head{
+        margin: 0%;
+    }
+    .footercol{
+        width: 100%;
+    }
+    .insidediv{
+        padding: 0px;
+    }
+    .container{
+        padding: 70px 15px;
+    }
+    .teamarea{
+        padding: 70px 0px;
+    }
+    .feedbackarea{
+        padding: 70px 0px;
+    }
+    .about{
+        padding: 70px 0px;
+    }
+    .servicesection{
+        padding: 70px 15px;
+    }
+    .slideranimation img{
+        padding-top: 77px;
+    }
+
+}
+
